@@ -1,0 +1,118 @@
+html {
+  background-color: rgba(242, 242, 242, 255);
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.3rem;
+  text-align: left;
+  color: aliceblue;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  text-align: left;
+  color: aliceblue;
+  font-size: 0.8rem;
+  padding-bottom: 2rem;
+}
+
+.content-wrapper {
+  width: 200px;
+  margin: 10rem auto;
+  padding: 1rem;
+  border-radius: 5rem;
+}
+
+.image-container .suv-image {
+  display: flex;
+  width: 30%;
+}
+
+.sedan-discription {
+  background: rgba(227, 133, 37, 255);
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.suv-discription {
+  background: rgba(1, 104, 113, 255);
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+.luxury-discription {
+  background: rgba(0, 63, 62, 255);
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.button {
+  display: flex;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.7rem;
+  border: 1px solid aliceblue;
+}
+
+.button-1 {
+  color: rgba(227, 133, 37, 255);
+}
+
+.button-2 {
+  color: rgba(1, 104, 113, 255);
+}
+
+.button-3 {
+  color: rgba(0, 63, 62, 255);
+}
+
+.button-hover:hover {
+  background-color: transparent;
+  color: aliceblue;
+  border: 1px solid aliceblue;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 40rem) {
+  .content-wrapper {
+    width: 550px;
+    margin: 20rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sedan-discription {
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+
+  .luxury-discription {
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+
+  .block {
+    min-height: 230px;
+    min-width: 135px;
+  }
+}
